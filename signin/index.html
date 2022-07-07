@@ -22,7 +22,7 @@
             >
                 <div class="c-form__group">
                     <label 
-                        class="c-form__label"
+                        class="u-hidden"
                         for="userEmail" 
                     >
                         Usuário
@@ -32,11 +32,12 @@
                         name="user"
                         id="userEmail"
                         type="email" 
+                        placeholder="Digite seu usuário"
                     >
                 </div>
                 <div class="c-form__group">
                     <label 
-                        class="c-form__label"
+                        class="u-hidden"
                         for="userPassword" 
                     >
                         Senha
@@ -46,6 +47,7 @@
                         name="password"
                         id="userPassword"
                         type="password" 
+                        placeholder="Digite sua senha"
                     >
                 </div>
                 <div class="c-form__group">
@@ -57,27 +59,23 @@
                     </button>
                 </div>
                 <div class="c-form__group">
-                    <span>
+                    <span class="c-form__text text__center">
                         Esqueceu sua senha? 
                         <a 
                             class="text__link"
                             href="/"
                         >
                             Clique aqui
-                        </a> 
-                        para recuperar.
+                        </a>
                     </span>
-                </div>
-                <div class="c-form__group">
-                    <span>
-                        Não possui cadastro 
+                    <span class="c-form__text text__center">
+                        Não possui cadastro? 
                         <a 
                             class="text__link"
                             href="/signup/"
                         >
-                            Clique aqui
-                        </a> 
-                        para se cadastrar.
+                            Registre-se
+                        </a>
                     </span>
                 </div>
             </form>
