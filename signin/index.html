@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <base href="../">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth - Sign In</title>
+    <link 
+        rel="stylesheet" 
+        href="style.css"
+    >
+</head>
+<body>
+    <div class="l-app">
+        <article>
+            <h1 class="title">Sign In</h1>
+
+            <form
+                name="SignIn" 
+                action="/"
+            >
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userEmail" 
+                    >
+                        Usuário
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="user"
+                        id="userEmail"
+                        type="email" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userPassword" 
+                    >
+                        Senha
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="password"
+                        id="userPassword"
+                        type="password" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <button 
+                        class="c-btn"
+                        type="submit"
+                    >
+                        Enviar
+                    </button>
+                </div>
+                <div class="c-form__group">
+                    <span>
+                        Esqueceu sua senha? 
+                        <a 
+                            class="text__link"
+                            href="/"
+                        >
+                            Clique aqui
+                        </a> 
+                        para recuperar.
+                    </span>
+                </div>
+                <div class="c-form__group">
+                    <span>
+                        Não possui cadastro 
+                        <a 
+                            class="text__link"
+                            href="/signup/"
+                        >
+                            Clique aqui
+                        </a> 
+                        para se cadastrar.
+                    </span>
+                </div>
+            </form>
+        </article>
+    </div>
+</body>
+</html>

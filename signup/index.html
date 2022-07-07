@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <base href="../">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth - Sign Up</title>
+    <link 
+        rel="stylesheet" 
+        href="style.css"
+    >
+</head>
+<body>
+    <div class="l-app">
+        <article>
+            <h1 class="title">Sign Up</h1>
+
+            <form
+                name="SignUp" 
+                action="/signin/"
+            >
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userName" 
+                    >
+                        Nome
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="name"
+                        id="userName"
+                        type="text" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userLastName" 
+                    >
+                        Sobrenome
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="lastname"
+                        id="userName"
+                        type="text" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userEmail" 
+                    >
+                        E-mail
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="email"
+                        id="userEmail"
+                        type="email" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userPassword" 
+                    >
+                        Senha
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="password"
+                        id="userPassword"
+                        type="password" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <label 
+                        class="c-form__label"
+                        for="userRepassword" 
+                    >
+                        Confirmar senha
+                    </label>
+                    <input 
+                        class="c-form__control"
+                        name="repassword"
+                        id="userRepassword"
+                        type="password" 
+                    >
+                </div>
+                <div class="c-form__group">
+                    <button 
+                        class="c-btn"
+                        type="submit"
+                    >
+                        Registrar
+                    </button>
+                </div>
+            </form>
+        </article>
+    </div>
+</body>
+</html>
